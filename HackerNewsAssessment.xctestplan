@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "38A7FF88-4634-42B0-BEF5-BC84402A0A68",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HackerNewsAssessment.xcodeproj",
+      "identifier" : "2550242D2CF18FC400E69A39",
+      "name" : "HackerNewsAssessment"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HackerNewsAssessment.xcodeproj",
+        "identifier" : "2550243E2CF18FC500E69A39",
+        "name" : "HackerNewsAssessmentTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HackerNewsAssessment.xcodeproj",
+        "identifier" : "255024482CF18FC500E69A39",
+        "name" : "HackerNewsAssessmentUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
